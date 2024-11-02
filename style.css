@@ -1,0 +1,71 @@
+/* Basic styling for the body and general elements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header styling */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background-color: white;
+}
+
+/* Section headers */
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+/* Paragraph and text formatting */
+p {
+    line-height: 1.6;
+}
+
+/* Lists */
+ol, ul {
+    margin-left: 20px;
+}
+
+/* Link styling */
+a {
+    color: #003366;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Photo Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
